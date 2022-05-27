@@ -1,0 +1,44 @@
+<!--<form
+class="custom-form"
+method="post"
+action="upload.php"       
+enctype="multipart/form-data"  
+>
+<h1>Empecemos</h1> 
+
+<input
+  type="email"
+  name="email"
+  placeholder="Tu email"
+  required="required"
+/>
+<p class="pad">* Agregue el motivo y el puesto para el cual le gustaria postularse.</p>
+<input
+  type="asunto"
+  name="asunto"
+  placeholder="Postulacion para el area de ventas"
+  required="asunto"
+/>
+
+<textarea
+type="textarea"
+name="cuerpoEmail"
+placeholder="Cuenta un poco sobre ti"
+required="required"
+></textarea>
+
+<input
+  type="file" 
+  name="cv"
+  placeholder="Carga tu CV"
+  accept="image/*, .pdf"
+  required="cv"
+  (change)="getFile($event)"
+/>
+
+<p>* Tu CV se enviara automaticamente a todas las agencias de empleo y empresas registradas en nuestra base de datos</p>
+<button name="submit" type="submit" (click)="sendFile()">Enviar</button>
+</form>
+
+
+-->
