@@ -11,7 +11,7 @@ print_r($data);
     $email = $data['email'];
     $asunto = $data['asunto'];
     
-   // $cv = $_FILES['files'];       
+    
    
  
 $body = $nombre . $apellido . $asunto;
@@ -41,15 +41,7 @@ try {
     $mail->setFrom($email, $email);
     //$mail->addAddress('pufytospetshop@gmail.com', 'Joe User');     //Add a recipient
     $mail->addAddress('adriancasanova_@outlook.es');               //Name is optional
-  /*$mail->addReplyTo('info@example.com', 'Information');
-    $mail->addCC('cc@example.com');
-    $mail->addBCC('bcc@example.com'); */
 
-    //Attachments
-  //  $mail->addAttachment('/var/tmp/file.tar.gz');           //Add attachments 
-   //   $mail->addAttachment($cv['tmp_name'], $cv['name']);
-   // $mail->addAttachment('/tmp/image.jpg', 'new.jpg'); 
-  // $mail->addAttachment($cv['tmp_name'], $cv['name']);   //Optional name
    
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
