@@ -39,7 +39,7 @@ try {
   //$mail->setFrom('proveedorsmtp@gmail.com', $email);
     $mail->setFrom($email, $email);
     //$mail->addAddress('pufytospetshop@gmail.com', 'Joe User');     //Add a recipient
-    $mail->addAddress('adriancasanova_@outlook.es');               //Name is optional
+    $mail->addAddress('xxxxxx@outlook.es');               //Name is optional
   /*$mail->addReplyTo('info@example.com', 'Information');
     $mail->addCC('cc@example.com');
     $mail->addBCC('bcc@example.com'); */
